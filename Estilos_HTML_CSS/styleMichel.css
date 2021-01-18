@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: consolas;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px;
+    color: #2196f3;
+    letter-spacing: 2px;/* Espaçamento de cada letra do botton */
+    text-transform: none;
+    font-size: 20px;/* Aumentando a fonte */
+    overflow: hidden;
+    transition: 0.2s;/* Serve para quando passar o mouse, ele faz a transição */
+    text-transform: uppercase;
+
+}
+/* o hover serve para quando passar o mouse em cima, surgir efeitos no button */
+a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px  #2196f3, 0 0 40px  #2196f3, 0 0 80px  #2196f3; /* serve para fazer uma sombra ao redor do botton ( 0 eixo X, 0 eixo Y , 10px para ter uma borda arredondada e a cor, repeti e aumentei os Pixels para aumentar o efeito). */
+    transition-delay: 0.2s; /* serve para quando colocar o mouse em cima, acender o botton */
+
+   
+}
